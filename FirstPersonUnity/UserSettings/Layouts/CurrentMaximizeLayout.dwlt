@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 11485
+  controlID: 16011
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 11460
+  controlID: 15950
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 11461
+  controlID: 15923
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 447dfffff4bcffff6cf3ffff1cfbffff
+      m_ExpandedIDs: 447dfffff4bcffff6cf3ffff1cfbffff58810000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 68.04375, y: -15.882983, z: 75.769745}
+    m_Target: {x: 72.99412, y: 17.038816, z: 121.4674}
     speed: 2
-    m_Value: {x: 68.04375, y: -15.882983, z: 75.769745}
+    m_Value: {x: 72.99412, y: 17.038816, z: 121.4674}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -552,13 +552,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17095871, y: -0.729892, z: 0.19754046, w: -0.631682}
+    m_Target: {x: -0.17285295, y: -0.7292961, z: 0.19972926, w: -0.6311663}
     speed: 2
-    m_Value: {x: -0.17095755, y: -0.72988707, z: 0.19753912, w: -0.6316777}
+    m_Value: {x: -0.17285177, y: -0.72929114, z: 0.19972791, w: -0.631162}
   m_Size:
-    m_Target: 37.314075
+    m_Target: 0.17781991
     speed: 2
-    m_Value: 37.314075
+    m_Value: 0.17781991
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -679,22 +679,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Packages/TerrainSampleAssets/Prefabs
+    - Assets/Packages/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Packages/TerrainSampleAssets/Prefabs
+  - Assets/Packages/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\dunte\Documents\Unity Projects\FirstPersonUnity\FirstPersonUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 143.6}
-    m_SelectedIDs: 6ca10000
-    m_LastClickedID: 41324
-    m_ExpandedIDs: 00000000d6590000b863000052a1000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: 12980000
+    m_LastClickedID: 38930
+    m_ExpandedIDs: 00000000d6590000b86300008a970000ee97000030980000a298000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 62810000
     m_LastClickedInstanceID: 33122
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
