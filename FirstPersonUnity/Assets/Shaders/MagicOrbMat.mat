@@ -62,7 +62,7 @@ Material:
     - _VoronoiAmount: 0.07
     m_Colors:
     - _Color: {r: 3.24901, g: 0, b: 2.013112, a: 1}
-    - _Color1: {r: 1.8429317, g: 0, b: 0, a: 0}
+    - _Color1: {r: 0.019607844, g: 0, b: 0, a: 0}
     - _Color2: {r: 0.026212793, g: 0, b: 0.047169805, a: 0}
-    - _Color3: {r: 0.020942407, g: 0.58638734, b: 0.052356016, a: 0}
+    - _Color3: {r: 8, g: 8, b: 8, a: 0}
   m_BuildTextureStacks: []
