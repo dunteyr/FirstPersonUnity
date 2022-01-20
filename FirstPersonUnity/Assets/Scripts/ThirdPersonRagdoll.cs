@@ -60,7 +60,7 @@ public class ThirdPersonRagdoll : MonoBehaviour
             //if a rigidbody exists
             if(GetComponent<Rigidbody>() != null)
             {
-                Rigidbody limbRB = GetComponent<Rigidbody>();
+                Rigidbody limbRB = limb.GetComponent<Rigidbody>();
                 limbRB.useGravity = false;
             } else { Debug.LogError("A limb in the ragdoll is missing a rigidbody."); }
 
@@ -68,7 +68,7 @@ public class ThirdPersonRagdoll : MonoBehaviour
             //if a collider exists
             if(GetComponent<Collider>() != null)
             {
-                Collider limbCol = GetComponent<Collider>();
+                Collider limbCol = limb.GetComponent<Collider>();
                 limbCol.enabled = false;
             } else { Debug.LogError("A limb in the ragdoll is missing a collider."); }
         }
