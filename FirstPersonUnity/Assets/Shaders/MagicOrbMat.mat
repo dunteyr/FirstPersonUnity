@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-879060635257659845
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MagicOrbMat
+  m_Shader: {fileID: -6465566751694194690, guid: 7d6688a394a97dd479829c7d416fbd81, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Add: 3.83
+    - _DissolveAmount: 0.54
+    - _DissolveOffset: 5.54
+    - _DissolveRange: 0.0874
+    - _DissolveSpeed: 0.1
+    - _Metallic: 0
+    - _NoiseMoveSpeed: 0.439
+    - _NoiseOffset: 36.5
+    - _NoiseRange: 1.28
+    - _NoiseScale: 56.8
+    - _OutlineThickness: 0.03
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _VoronoiAmount: 0.07
+    m_Colors:
+    - _Color: {r: 3.24901, g: 0, b: 2.013112, a: 1}
+    - _Color1: {r: 1.8429317, g: 0, b: 0, a: 0}
+    - _Color2: {r: 0.026212793, g: 0, b: 0.047169805, a: 0}
+    - _Color3: {r: 0.020942407, g: 0.58638734, b: 0.052356016, a: 0}
+  m_BuildTextureStacks: []
