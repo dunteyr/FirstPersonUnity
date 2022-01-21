@@ -86,6 +86,7 @@ namespace StarterAssets
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
+		private RagCam _ragCam;
 
 		private const float _threshold = 0.01f;
 
@@ -105,6 +106,7 @@ namespace StarterAssets
 			_hasAnimator = TryGetComponent(out _animator);
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
+			_ragCam = GetComponent<RagCam>();
 
 			AssignAnimationIDs();
 
@@ -302,8 +304,8 @@ namespace StarterAssets
             if (_input.ragdoll)
             {
 				_animator.enabled = false;
+				_ragCam._camActivate = true;
             }
-
             else
             {
 				_animator.enabled = true;
