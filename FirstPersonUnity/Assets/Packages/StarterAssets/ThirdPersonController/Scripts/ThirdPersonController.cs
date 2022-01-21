@@ -120,6 +120,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			SetRagdoll();
 		}
 
 		private void LateUpdate()
@@ -295,6 +296,19 @@ namespace StarterAssets
 				_verticalVelocity += Gravity * Time.deltaTime;
 			}
 		}
+
+		private void SetRagdoll()
+        {
+            if (_input.ragdoll)
+            {
+				_animator.enabled = false;
+            }
+
+            else
+            {
+				_animator.enabled = true;
+            }
+        }
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
 		{
